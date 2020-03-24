@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45DAD3F6242A5C5200A646DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DAD3F5242A5C5200A646DE /* AppDelegate.swift */; };
+		45DAD3F8242A5C5200A646DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DAD3F7242A5C5200A646DE /* SceneDelegate.swift */; };
+		45DAD3FD242A5C5200A646DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45DAD3FB242A5C5200A646DE /* Main.storyboard */; };
+		45DAD3FF242A5C5700A646DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45DAD3FE242A5C5700A646DE /* Assets.xcassets */; };
+		45DAD402242A5C5700A646DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45DAD400242A5C5700A646DE /* LaunchScreen.storyboard */; };
+		45DAD40B242A5E6300A646DE /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DAD40A242A5E6300A646DE /* PhotosCollectionViewController.swift */; };
+		45DAD40F242A5E9C00A646DE /* PEIPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DAD40E242A5E9C00A646DE /* PEIPhotosViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45DAD3F2242A5C5200A646DE /* MarsRover-xcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MarsRover-xcode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45DAD3F5242A5C5200A646DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45DAD3F7242A5C5200A646DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		45DAD3FC242A5C5200A646DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45DAD3FE242A5C5700A646DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45DAD401242A5C5700A646DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45DAD403242A5C5700A646DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45DAD40A242A5E6300A646DE /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
+		45DAD40C242A5E9C00A646DE /* MarsRover-xcode-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MarsRover-xcode-Bridging-Header.h"; sourceTree = "<group>"; };
+		45DAD40D242A5E9C00A646DE /* PEIPhotosViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PEIPhotosViewController.h; sourceTree = "<group>"; };
+		45DAD40E242A5E9C00A646DE /* PEIPhotosViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PEIPhotosViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45DAD3EF242A5C5200A646DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45DAD3E9242A5C5200A646DE = {
+			isa = PBXGroup;
+			children = (
+				45DAD3F4242A5C5200A646DE /* MarsRover-xcode */,
+				45DAD3F3242A5C5200A646DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45DAD3F3242A5C5200A646DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45DAD3F2242A5C5200A646DE /* MarsRover-xcode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45DAD3F4242A5C5200A646DE /* MarsRover-xcode */ = {
+			isa = PBXGroup;
+			children = (
+				45DAD409242A5E3400A646DE /* View Controllers */,
+				45DAD3F5242A5C5200A646DE /* AppDelegate.swift */,
+				45DAD3F7242A5C5200A646DE /* SceneDelegate.swift */,
+				45DAD3FB242A5C5200A646DE /* Main.storyboard */,
+				45DAD3FE242A5C5700A646DE /* Assets.xcassets */,
+				45DAD400242A5C5700A646DE /* LaunchScreen.storyboard */,
+				45DAD403242A5C5700A646DE /* Info.plist */,
+			);
+			path = "MarsRover-xcode";
+			sourceTree = "<group>";
+		};
+		45DAD409242A5E3400A646DE /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				45DAD40A242A5E6300A646DE /* PhotosCollectionViewController.swift */,
+				45DAD40D242A5E9C00A646DE /* PEIPhotosViewController.h */,
+				45DAD40E242A5E9C00A646DE /* PEIPhotosViewController.m */,
+				45DAD40C242A5E9C00A646DE /* MarsRover-xcode-Bridging-Header.h */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45DAD3F1242A5C5200A646DE /* MarsRover-xcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45DAD406242A5C5700A646DE /* Build configuration list for PBXNativeTarget "MarsRover-xcode" */;
+			buildPhases = (
+				45DAD3EE242A5C5200A646DE /* Sources */,
+				45DAD3EF242A5C5200A646DE /* Frameworks */,
+				45DAD3F0242A5C5200A646DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MarsRover-xcode";
+			productName = "MarsRover-xcode";
+			productReference = 45DAD3F2242A5C5200A646DE /* MarsRover-xcode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45DAD3EA242A5C5200A646DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Lambda School";
+				TargetAttributes = {
+					45DAD3F1242A5C5200A646DE = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+					};
+				};
+			};
+			buildConfigurationList = 45DAD3ED242A5C5200A646DE /* Build configuration list for PBXProject "MarsRover-xcode" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45DAD3E9242A5C5200A646DE;
+			productRefGroup = 45DAD3F3242A5C5200A646DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45DAD3F1242A5C5200A646DE /* MarsRover-xcode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45DAD3F0242A5C5200A646DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45DAD402242A5C5700A646DE /* LaunchScreen.storyboard in Resources */,
+				45DAD3FF242A5C5700A646DE /* Assets.xcassets in Resources */,
+				45DAD3FD242A5C5200A646DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45DAD3EE242A5C5200A646DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45DAD40B242A5E6300A646DE /* PhotosCollectionViewController.swift in Sources */,
+				45DAD3F6242A5C5200A646DE /* AppDelegate.swift in Sources */,
+				45DAD40F242A5E9C00A646DE /* PEIPhotosViewController.m in Sources */,
+				45DAD3F8242A5C5200A646DE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		45DAD3FB242A5C5200A646DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45DAD3FC242A5C5200A646DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45DAD400242A5C5700A646DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45DAD401242A5C5700A646DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45DAD404242A5C5700A646DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45DAD405242A5C5700A646DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45DAD407242A5C5700A646DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MarsRover-xcode/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flash.MarsRover-xcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MarsRover-xcode/View Controllers/MarsRover-xcode-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45DAD408242A5C5700A646DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MarsRover-xcode/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flash.MarsRover-xcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MarsRover-xcode/View Controllers/MarsRover-xcode-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45DAD3ED242A5C5200A646DE /* Build configuration list for PBXProject "MarsRover-xcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45DAD404242A5C5700A646DE /* Debug */,
+				45DAD405242A5C5700A646DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45DAD406242A5C5700A646DE /* Build configuration list for PBXNativeTarget "MarsRover-xcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45DAD407242A5C5700A646DE /* Debug */,
+				45DAD408242A5C5700A646DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45DAD3EA242A5C5200A646DE /* Project object */;
+}
