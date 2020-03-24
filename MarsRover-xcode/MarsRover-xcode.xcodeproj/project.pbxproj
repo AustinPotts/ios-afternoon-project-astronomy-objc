@@ -14,8 +14,10 @@
 		45DAD402242A5C5700A646DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45DAD400242A5C5700A646DE /* LaunchScreen.storyboard */; };
 		45DAD40B242A5E6300A646DE /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DAD40A242A5E6300A646DE /* PhotosCollectionViewController.swift */; };
 		45DAD40F242A5E9C00A646DE /* PEIPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DAD40E242A5E9C00A646DE /* PEIPhotosViewController.m */; };
-		45DAD413242A5FE500A646DE /* MarsPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DAD412242A5FE500A646DE /* MarsPhoto.swift */; };
-		45DAD415242A61C000A646DE /* MarsRover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DAD414242A61C000A646DE /* MarsRover.swift */; };
+		45DAD418242A8FB700A646DE /* PEIMarsRover.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DAD417242A8FB700A646DE /* PEIMarsRover.m */; };
+		45DAD41B242A980200A646DE /* PEIMarsPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DAD41A242A980200A646DE /* PEIMarsPhoto.m */; };
+		45DAD41E242A995500A646DE /* PEICamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DAD41D242A995500A646DE /* PEICamera.m */; };
+		45DAD420242A9ABB00A646DE /* SolDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DAD41F242A9ABB00A646DE /* SolDescription.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +32,13 @@
 		45DAD40C242A5E9C00A646DE /* MarsRover-xcode-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MarsRover-xcode-Bridging-Header.h"; sourceTree = "<group>"; };
 		45DAD40D242A5E9C00A646DE /* PEIPhotosViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PEIPhotosViewController.h; sourceTree = "<group>"; };
 		45DAD40E242A5E9C00A646DE /* PEIPhotosViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PEIPhotosViewController.m; sourceTree = "<group>"; };
-		45DAD412242A5FE500A646DE /* MarsPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsPhoto.swift; sourceTree = "<group>"; };
-		45DAD414242A61C000A646DE /* MarsRover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsRover.swift; sourceTree = "<group>"; };
+		45DAD416242A8FB700A646DE /* PEIMarsRover.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PEIMarsRover.h; sourceTree = "<group>"; };
+		45DAD417242A8FB700A646DE /* PEIMarsRover.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PEIMarsRover.m; sourceTree = "<group>"; };
+		45DAD419242A980200A646DE /* PEIMarsPhoto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PEIMarsPhoto.h; sourceTree = "<group>"; };
+		45DAD41A242A980200A646DE /* PEIMarsPhoto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PEIMarsPhoto.m; sourceTree = "<group>"; };
+		45DAD41C242A995500A646DE /* PEICamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PEICamera.h; sourceTree = "<group>"; };
+		45DAD41D242A995500A646DE /* PEICamera.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PEICamera.m; sourceTree = "<group>"; };
+		45DAD41F242A9ABB00A646DE /* SolDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolDescription.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,8 +98,13 @@
 		45DAD410242A5FA600A646DE /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				45DAD412242A5FE500A646DE /* MarsPhoto.swift */,
-				45DAD414242A61C000A646DE /* MarsRover.swift */,
+				45DAD416242A8FB700A646DE /* PEIMarsRover.h */,
+				45DAD417242A8FB700A646DE /* PEIMarsRover.m */,
+				45DAD419242A980200A646DE /* PEIMarsPhoto.h */,
+				45DAD41A242A980200A646DE /* PEIMarsPhoto.m */,
+				45DAD41C242A995500A646DE /* PEICamera.h */,
+				45DAD41D242A995500A646DE /* PEICamera.m */,
+				45DAD41F242A9ABB00A646DE /* SolDescription.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -177,11 +189,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				45DAD40B242A5E6300A646DE /* PhotosCollectionViewController.swift in Sources */,
-				45DAD415242A61C000A646DE /* MarsRover.swift in Sources */,
+				45DAD420242A9ABB00A646DE /* SolDescription.swift in Sources */,
+				45DAD418242A8FB700A646DE /* PEIMarsRover.m in Sources */,
+				45DAD41E242A995500A646DE /* PEICamera.m in Sources */,
 				45DAD3F6242A5C5200A646DE /* AppDelegate.swift in Sources */,
+				45DAD41B242A980200A646DE /* PEIMarsPhoto.m in Sources */,
 				45DAD40F242A5E9C00A646DE /* PEIPhotosViewController.m in Sources */,
 				45DAD3F8242A5C5200A646DE /* SceneDelegate.swift in Sources */,
-				45DAD413242A5FE500A646DE /* MarsPhoto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
