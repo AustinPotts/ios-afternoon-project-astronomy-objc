@@ -20,7 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 //
 // @objc let imageURL: URL
 
-@property (nonatomic, readonly) int *id;
+@property (nonatomic, readonly) int *identifier; 
 @property (nonatomic, readonly) int *sol;
 @property (nonatomic, readonly) PEICamera *camera;
 @property (nonatomic, readonly) NSDate *earthDate;

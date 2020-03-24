@@ -18,6 +18,7 @@
 		45DAD41B242A980200A646DE /* PEIMarsPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DAD41A242A980200A646DE /* PEIMarsPhoto.m */; };
 		45DAD41E242A995500A646DE /* PEICamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DAD41D242A995500A646DE /* PEICamera.m */; };
 		45DAD420242A9ABB00A646DE /* SolDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DAD41F242A9ABB00A646DE /* SolDescription.swift */; };
+		45DAD424242A9F4600A646DE /* PEIMarsRoverClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DAD423242A9F4600A646DE /* PEIMarsRoverClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		45DAD41C242A995500A646DE /* PEICamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PEICamera.h; sourceTree = "<group>"; };
 		45DAD41D242A995500A646DE /* PEICamera.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PEICamera.m; sourceTree = "<group>"; };
 		45DAD41F242A9ABB00A646DE /* SolDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolDescription.swift; sourceTree = "<group>"; };
+		45DAD422242A9F4600A646DE /* PEIMarsRoverClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PEIMarsRoverClient.h; sourceTree = "<group>"; };
+		45DAD423242A9F4600A646DE /* PEIMarsRoverClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PEIMarsRoverClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +115,18 @@
 		45DAD411242A5FB200A646DE /* Model Controller */ = {
 			isa = PBXGroup;
 			children = (
+				45DAD421242A9F1D00A646DE /* Networking */,
 			);
 			path = "Model Controller";
+			sourceTree = "<group>";
+		};
+		45DAD421242A9F1D00A646DE /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				45DAD422242A9F4600A646DE /* PEIMarsRoverClient.h */,
+				45DAD423242A9F4600A646DE /* PEIMarsRoverClient.m */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +205,7 @@
 				45DAD420242A9ABB00A646DE /* SolDescription.swift in Sources */,
 				45DAD418242A8FB700A646DE /* PEIMarsRover.m in Sources */,
 				45DAD41E242A995500A646DE /* PEICamera.m in Sources */,
+				45DAD424242A9F4600A646DE /* PEIMarsRoverClient.m in Sources */,
 				45DAD3F6242A5C5200A646DE /* AppDelegate.swift in Sources */,
 				45DAD41B242A980200A646DE /* PEIMarsPhoto.m in Sources */,
 				45DAD40F242A5E9C00A646DE /* PEIPhotosViewController.m in Sources */,
