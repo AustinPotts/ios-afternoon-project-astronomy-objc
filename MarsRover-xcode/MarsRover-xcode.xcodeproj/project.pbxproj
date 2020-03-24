@@ -14,6 +14,7 @@
 		45DAD402242A5C5700A646DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45DAD400242A5C5700A646DE /* LaunchScreen.storyboard */; };
 		45DAD40B242A5E6300A646DE /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DAD40A242A5E6300A646DE /* PhotosCollectionViewController.swift */; };
 		45DAD40F242A5E9C00A646DE /* PEIPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DAD40E242A5E9C00A646DE /* PEIPhotosViewController.m */; };
+		45DAD413242A5FE500A646DE /* MarsPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DAD412242A5FE500A646DE /* MarsPhoto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		45DAD40C242A5E9C00A646DE /* MarsRover-xcode-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MarsRover-xcode-Bridging-Header.h"; sourceTree = "<group>"; };
 		45DAD40D242A5E9C00A646DE /* PEIPhotosViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PEIPhotosViewController.h; sourceTree = "<group>"; };
 		45DAD40E242A5E9C00A646DE /* PEIPhotosViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PEIPhotosViewController.m; sourceTree = "<group>"; };
+		45DAD412242A5FE500A646DE /* MarsPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsPhoto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,8 @@
 		45DAD3F4242A5C5200A646DE /* MarsRover-xcode */ = {
 			isa = PBXGroup;
 			children = (
+				45DAD411242A5FB200A646DE /* Model Controller */,
+				45DAD410242A5FA600A646DE /* Model */,
 				45DAD409242A5E3400A646DE /* View Controllers */,
 				45DAD3F5242A5C5200A646DE /* AppDelegate.swift */,
 				45DAD3F7242A5C5200A646DE /* SceneDelegate.swift */,
@@ -80,6 +84,21 @@
 				45DAD40C242A5E9C00A646DE /* MarsRover-xcode-Bridging-Header.h */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		45DAD410242A5FA600A646DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				45DAD412242A5FE500A646DE /* MarsPhoto.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		45DAD411242A5FB200A646DE /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +177,7 @@
 				45DAD3F6242A5C5200A646DE /* AppDelegate.swift in Sources */,
 				45DAD40F242A5E9C00A646DE /* PEIPhotosViewController.m in Sources */,
 				45DAD3F8242A5C5200A646DE /* SceneDelegate.swift in Sources */,
+				45DAD413242A5FE500A646DE /* MarsPhoto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
