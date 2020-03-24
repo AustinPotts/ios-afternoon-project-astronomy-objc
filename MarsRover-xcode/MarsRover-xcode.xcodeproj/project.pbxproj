@@ -15,6 +15,7 @@
 		45DAD40B242A5E6300A646DE /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DAD40A242A5E6300A646DE /* PhotosCollectionViewController.swift */; };
 		45DAD40F242A5E9C00A646DE /* PEIPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DAD40E242A5E9C00A646DE /* PEIPhotosViewController.m */; };
 		45DAD413242A5FE500A646DE /* MarsPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DAD412242A5FE500A646DE /* MarsPhoto.swift */; };
+		45DAD415242A61C000A646DE /* MarsRover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DAD414242A61C000A646DE /* MarsRover.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		45DAD40D242A5E9C00A646DE /* PEIPhotosViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PEIPhotosViewController.h; sourceTree = "<group>"; };
 		45DAD40E242A5E9C00A646DE /* PEIPhotosViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PEIPhotosViewController.m; sourceTree = "<group>"; };
 		45DAD412242A5FE500A646DE /* MarsPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsPhoto.swift; sourceTree = "<group>"; };
+		45DAD414242A61C000A646DE /* MarsRover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsRover.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				45DAD412242A5FE500A646DE /* MarsPhoto.swift */,
+				45DAD414242A61C000A646DE /* MarsRover.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45DAD40B242A5E6300A646DE /* PhotosCollectionViewController.swift in Sources */,
+				45DAD415242A61C000A646DE /* MarsRover.swift in Sources */,
 				45DAD3F6242A5C5200A646DE /* AppDelegate.swift in Sources */,
 				45DAD40F242A5E9C00A646DE /* PEIPhotosViewController.m in Sources */,
 				45DAD3F8242A5C5200A646DE /* SceneDelegate.swift in Sources */,
